@@ -1,0 +1,109 @@
+body {
+    background-image: linear-gradient(to bottom, rgb(77, 124, 252), rgb(149, 154, 196), rgb(170, 174, 211),rgb(211, 214, 193));
+    font-family: sans-serif;
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 15px;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+li {
+    display: inline-block;
+    padding-left: 20px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+a {
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+}
+
+a:hover {
+    color: rgb(255, 255, 255);
+    transition: 0.5s all;
+}
+
+#title {
+    flex-direction: column;
+    line-height: 10px;
+    font-size: large;
+}
+
+#soares {
+    color: rgb(255, 255, 255);
+}
+
+main h2 {
+    font-size: 56px;
+    line-height: 10px;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+    font-weight: 520;
+}
+
+span {
+    color: rgb(255, 255, 255);
+}
+
+p {
+    line-height: 20px;
+    max-width: 500px;
+    font-size: large;
+    font-style: italic;
+}
+
+img {
+    width: 600px;
+    margin-left: 200px;
+}
+
+#btn {
+    border: 2px solid rgb(2, 12, 22);
+    padding: 8px;
+    border-radius: 15px;
+    padding-right: 30px;
+}
+
+#btn:hover {
+    background-color: rgba(255, 255, 255, 0.829);
+    color: black;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+
+#submit {
+    width: 50%;
+    height: 20px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    text-align: center;
+}
+
+#submit:hover {
+cursor: pointer;
+}
+
+input {
+    margin-top: 20px;
+    height: 20px;
+    padding: 20px;
+    border-radius: 20px;
+    border: none;
+    font-size: 15px;
+}
